@@ -1,6 +1,5 @@
-create table if not exists tasklist (
-id varchar(8) primary key,
-task varchar(256),
-deadline varchar(10),
-done boolean
+create table if not exists employee (
+id varchar(50) primary key,
+name varchar(50),
+age INT
 );
