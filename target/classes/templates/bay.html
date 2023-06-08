@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Bay World</title>
+</head>
+<bod>
+    <h1>Bay World</h1>
+    <form method="post" action="/bay">
+        input: <input type="text" name="text1" />
+        <input type="submit" value="click" />
+    </form>
+    <form method="post" action="/bay/db">
+        従業員ID:<input type="text" name="text2" th:value="${text2_value}" />
+        <input type="submit" value="click" />
+    </form>
+</bod>
+</html>
